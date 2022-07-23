@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+body{
+    background-image: url(images/backg.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 40%;
+    transform: translate(0%,-100%);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.8s;
+}
+
+.navbar a:hover{
+    color: brown;
+    font-size: larger;
+}
+
+h1{
+    color: aliceblue;
+    font-size: large;
+}
+
+.foto{
+     transform: translate(4%,130%);
+}
+
+.one-cıkanlar{
+    transform: translate(46%,1070%);
+}
+
+h2{
+    color: aliceblue;
+    font-size: large;
+}
+
+.foto2{
+    transform: translate(4%,140%);
+    transition: 0.7s;
+}
+
+.yeni-eklenenler{
+    transform: translate(45%,1110%);
+}
+
+h3{
+    color: aliceblue;
+    font-size: 400%;
+    transform: translate(40%,240%);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
